@@ -1,0 +1,24 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+torch
+prophet
+xgboost
+
+Explanation
+numpy, pandas → data handling and preprocessing
+
+matplotlib → plots and visualizations
+
+scikit-learn → metrics (RMSE, MAE), scaling, baselines
+
+torch → PyTorch for your Attention-LSTM model
+
+prophet → baseline forecasting model (optional, if you used it)
+
+xgboost → baseline forecasting model (optional, if you used it)
+
+How to generate automatically in Colab
+If you want to capture the exact versions you used:
+!pip freeze > requirements.txt
